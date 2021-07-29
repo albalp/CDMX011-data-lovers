@@ -1,0 +1,57 @@
+
+*{
+    background-color: black;
+    color:aquamarine;
+    padding: 10px;
+
+}
+h1{
+    border: dotted paleturquoise;
+    display: flex;
+    justify-content: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+p{
+    font-family: 'Questrial', sans-serif;
+}
+.all{
+    position: relative;
+    display: flex;
+    display: inline-block;
+    border: solid indigo;
+    border-radius: 25px;
+    max-width: 450px;
+    height: 700px;
+    
+}
+
+.column{
+    display: flex;  
+    text-align: center; 
+    align-items: center;
+    flex-flow: wrap column;    
+}
+.column > * {  
+    color:white;
+  }
+
+.column img{
+    width: 200px;
+    
+}
+
+.column p{
+  text-align: left;
+
+}
+
+.column h2{
+    text-align: center;
+}
+.datos p{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap row;
+    color: teal;
+}
