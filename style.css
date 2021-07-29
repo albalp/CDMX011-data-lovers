@@ -2,7 +2,7 @@
 *{
     background-color: black;
     color:aquamarine;
-    padding: 10px;
+    
 
 }
 h1{
@@ -22,12 +22,12 @@ p{
     border: solid indigo;
     border-radius: 25px;
     max-width: 450px;
-    height: 700px;
+    min-height: 700px;
     
 }
 
 .column{
-    display: flex;  
+    
     text-align: center; 
     align-items: center;
     flex-flow: wrap column;    
@@ -50,7 +50,7 @@ p{
     text-align: center;
 }
 .datos p{
-    display: flex;
+    margin-left: 3px;
     justify-content: space-between;
     flex-flow: wrap row;
     color: teal;
